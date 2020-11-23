@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title> Rich's Profile</title>
+    <title> Richard Quiroz Web Developer</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,9 +12,8 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="portfolio.html"> -->
-    <!--<link rel="stylesheet" href="contact.html"> -->
 
+    <!-- Inline Styling to override bootstrap-->
     <style>
         #header {
             font-family: 'Six Caps', sans-serif;
@@ -25,25 +24,18 @@
             font-size: large;
         }
 
-        p {
-            font-family: ;
-            color: white;
+        ul {
+            font-family: 'Roboto', sans-serif;
         }
 
         #indent {
             text-indent: 5%
         }
-
-        #technicalskills {
-            columns: 2;
-            -webkit-columns: 2;
-            -moz-columns: 2;
-        }
     </style>
 </head>
 
 <body style="background-color: #343235;">
-    <div class="container-fluid">
+    
 
         <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #AEE38D;">
             <a class="navbar-brand" href="index.html">Richard Quiroz</a>
@@ -63,7 +55,7 @@
             </div>
         </nav>
 
-
+        
         <div class="jumbotron card card-image img-fluid"
             style="background-image: url(https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);">
             <div class=" text-center py-5 px-4" style="color: #CD7995;">
@@ -76,9 +68,6 @@
             </div>
         </div>
 
-        <!-- link for scrum master image :  https://images.unsplash.com/photo-1541960071727-c531398e7494?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80-->
-
-
         <br>
 
         <div class="row">
@@ -86,7 +75,6 @@
                 <figure class="figure">
                     <img src="./assets/ProfilePic.jpg"
                         class="figure-img img-fluid rounded" alt="ProfilePic">
-                    <!--<figcaption class="figure-caption">A caption for the above image.</figcaption>-->
                 </figure>
             </div>
 
@@ -100,7 +88,8 @@
 
                 <div class="row">
                     <div class="col-sm-12">
-                        <p id="indent" class="text-dark text-left text-indent" style="background-color: #DA964E;">
+                        <p id="indent" class="text-dark text-left text-indent pl-md-2 pr-md-1"
+                            style="background-color: #DA964E;">
 
                             My name is Rich, I graduated in 2012 from the University of Delaware with a degree in
                             Sociology. I've been working in the software space since 2013, manually testing
@@ -116,13 +105,13 @@
                 <div class="row">
                     <div class=" col-sm-12">
                         <h1 id="header" class="text-dark text-center" style="background-color: #DA964E;">
-                            Tech
+                            Tech Skills
                         </h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <ul id=" technicalskills" style="background-color: #DA964E;">
+                        <ul id=" technicalskills" class="text-dark" style="background-color: #DA964E;">
                             <li>
                                 Python
                             </li>
@@ -143,7 +132,7 @@
                     </div>
 
                     <div class="col-sm-6">
-                        <ul style="background-color: #DA964E;">
+                        <ul class="text-dark" style="background-color: #DA964E;">
 
                             <li>
                                 HTML 5
